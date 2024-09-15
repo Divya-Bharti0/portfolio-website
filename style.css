@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif; /* Correctly set font family */
+    background-color: #f4f4f4;
+    line-height: 1.6; /* Adjust line-height for better readability */
+    font-size: 18px; /* Increase the base font size for the body */
+}
+
+
+header {
+    background-color: black;
+    color: white;
+    padding: 80px;
+    text-align: center;
+    font-size: 2em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: brown;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header-content h1 {
+    font-size: 4rem;
+}
+
+section {
+    padding: 50px;
+    max-width: 800px;
+    margin: auto;
+    font-size: larger;
+    background-color: chartreuse;
+}
+
+
+#about {
+    text-align: center;
+}
+/* Styling for the project image */
+img.work {
+    width: 100%; /* Make the image responsive to its container's width */
+    max-width: 600px; /* Set a maximum width to prevent it from becoming too large */
+    height: auto; /* Maintain the aspect ratio of the image */
+    display: block; /* Ensure the image is displayed as a block element */
+    margin: 0 auto; /* Center-align the image horizontally */
+    border-radius: 10px; /* Optional: adds rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: adds a subtle shadow for depth */
+}
+
+/* Skills Section Styling */
+#skills {
+    padding: 40px;
+    background-color: #f4f4f4; /* Light background for contrast */
+    text-align: center; /* Center-align text and images */
+}
+
+#skills h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333; /* Dark text color for better readability */
+}
+
+#skills nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img.skill2 {
+    max-width: 800px; /* Adjust size as needed */
+    height: auto;
+    border-radius: 20px; /* Rounded corners for the image */
+    margin-bottom: 30px; /* Space below the image */
+    box-shadow: 0 4px 8px black(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+ul {
+    list-style: none; /* Remove default bullets */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap; /* Allow list items to wrap to the next line */
+    justify-content: center; /* Center-align the list items */
+}
+
+ul li {
+    background-color: black; /* White background for list items */
+    border: 2px solid #ddd; /* Light border around each item */
+    border-radius: 5px; /* Rounded corners for the list items */
+    padding: 10px 20px;
+    margin: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    font-size: 1em;
+    color: #d32222 /* Dark text color for list items */
+
+}
+
+ul li:hover {
+    background-color: #e0e0e0; /* Slightly darker background on hover */
+    transform: scale(1.05); /* Slightly enlarge item on hover */
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px 0;
+}
+
+.project {
+    background-color:black;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-img {
+    width: 200%;
+    height: auto;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
